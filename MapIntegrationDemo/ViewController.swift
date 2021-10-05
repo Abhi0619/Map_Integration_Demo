@@ -10,6 +10,9 @@ import MapKit
 import CoreLocation
 class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDelegate {
     let locationManeger = CLLocationManager()
+    
+    
+
     @IBOutlet weak var mapKIt: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
